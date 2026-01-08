@@ -2,7 +2,7 @@ import { InquiryFormData } from "../types";
 
 // 🔴 주의: Google Apps Script를 배포하고 얻은 '웹 앱 URL'을 아래 변수에 입력해야 작동합니다.
 // 예: "https://script.google.com/macros/s/AKfycbx.../exec"
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbw-5BzrLi6mlhRl9pXa5rsJiHNC7_eYeJBwWA8v4A0FawcXTvsVKbB0DX6JNoysKjlluA/exec";
+const GOOGLE_SCRIPT_URL: string = "https://script.google.com/macros/s/AKfycbw-5BzrLi6mlhRl9pXa5rsJiHNC7_eYeJBwWA8v4A0FawcXTvsVKbB0DX6JNoysKjlluA/exec";
 
 export const submitToGoogleSheet = async (data: InquiryFormData): Promise<boolean> => {
   if (GOOGLE_SCRIPT_URL === "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL" || !GOOGLE_SCRIPT_URL) {
