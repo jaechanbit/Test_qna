@@ -1,0 +1,5 @@
+{
+  "name": "Smart Inquiry Form",
+  "description": "A modern, responsive inquiry form featuring AI-powered submission analysis and confirmation generation using Google Gemini.",
+  "requestFramePermissions": []
+}
